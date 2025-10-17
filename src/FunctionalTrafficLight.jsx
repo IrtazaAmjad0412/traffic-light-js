@@ -19,7 +19,7 @@ export const FunctionalTrafficLight = ({ colors }) => {
             <div
               key={color}
               className={
-                currentTrafficLightColor === color ? `circle ${color}` : "circle black"
+                currentTrafficLightColor === color ? `circle ${color}` : `circle black`
               }
             ></div>
           );

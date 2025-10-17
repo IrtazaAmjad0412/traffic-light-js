@@ -13,7 +13,7 @@ function App() {
             <FunctionalTrafficLight colors={trafficLightColors} />
           </div>
           <div className="right">
-            <ClassTrafficLight />
+            <ClassTrafficLight colors={trafficLightColors} />
           </div>
         </div>
       </main>
